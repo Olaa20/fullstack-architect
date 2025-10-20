@@ -1,0 +1,64 @@
+:root {
+    --primary: #1e90ff;
+    --bg: #f9f9f9;
+    --text: #333;
+    --radius: 8px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  
+  header {
+    background: var(--primary);
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+  }
+  
+  input, textarea, button {
+    padding: .8rem;
+    border-radius: var(--radius);
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0a70d0;
+  }
+  
